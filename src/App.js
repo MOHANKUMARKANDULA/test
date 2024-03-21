@@ -100,7 +100,6 @@ console.log(event)
                 <td>{contact.name}</td>
                 <td>{contact.phone}</td>
                 <td>
-                  {/* Delete button for each contact */}
                   <button onClick={() => handleDelete(index)}>Delete</button>
                 </td> 
               </tr>
